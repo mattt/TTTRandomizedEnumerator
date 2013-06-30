@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8BEC953177FA811001005D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BEC952177FA811001005D2 /* Foundation.framework */; };
+		F8BEC956177FA811001005D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BEC955177FA811001005D2 /* main.m */; };
+		F8BEC962177FA825001005D2 /* TTTRandomizedEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BEC961177FA825001005D2 /* TTTRandomizedEnumerator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F8BEC94D177FA811001005D2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F8BEC94F177FA811001005D2 /* TTTRandomizedEnumerator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TTTRandomizedEnumerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8BEC952177FA811001005D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F8BEC955177FA811001005D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../Example/main.m; sourceTree = "<group>"; };
+		F8BEC958177FA811001005D2 /* TTTRandomizedEnumerator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TTTRandomizedEnumerator-Prefix.pch"; path = "../Example/TTTRandomizedEnumerator-Prefix.pch"; sourceTree = "<group>"; };
+		F8BEC960177FA825001005D2 /* TTTRandomizedEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTRandomizedEnumerator.h; sourceTree = "<group>"; };
+		F8BEC961177FA825001005D2 /* TTTRandomizedEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTRandomizedEnumerator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8BEC94C177FA811001005D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BEC953177FA811001005D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8BEC946177FA811001005D2 = {
+			isa = PBXGroup;
+			children = (
+				F8BEC954177FA811001005D2 /* TTTRandomizedEnumerator */,
+				F8BEC951177FA811001005D2 /* Frameworks */,
+				F8BEC950177FA811001005D2 /* Products */,
+				F8BEC963177FAD29001005D2 /* Vendor */,
+			);
+			sourceTree = "<group>";
+		};
+		F8BEC950177FA811001005D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8BEC94F177FA811001005D2 /* TTTRandomizedEnumerator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8BEC951177FA811001005D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8BEC952177FA811001005D2 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8BEC954177FA811001005D2 /* TTTRandomizedEnumerator */ = {
+			isa = PBXGroup;
+			children = (
+				F8BEC955177FA811001005D2 /* main.m */,
+				F8BEC957177FA811001005D2 /* Supporting Files */,
+			);
+			path = TTTRandomizedEnumerator;
+			sourceTree = "<group>";
+		};
+		F8BEC957177FA811001005D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8BEC958177FA811001005D2 /* TTTRandomizedEnumerator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8BEC963177FAD29001005D2 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				F8BEC964177FAD4E001005D2 /* TTTRandomizedEnumerator */,
+			);
+			name = Vendor;
+			path = TTTRandomizedEnumerator;
+			sourceTree = "<group>";
+		};
+		F8BEC964177FAD4E001005D2 /* TTTRandomizedEnumerator */ = {
+			isa = PBXGroup;
+			children = (
+				F8BEC960177FA825001005D2 /* TTTRandomizedEnumerator.h */,
+				F8BEC961177FA825001005D2 /* TTTRandomizedEnumerator.m */,
+			);
+			name = TTTRandomizedEnumerator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8BEC94E177FA811001005D2 /* TTTRandomizedEnumerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8BEC95D177FA811001005D2 /* Build configuration list for PBXNativeTarget "TTTRandomizedEnumerator" */;
+			buildPhases = (
+				F8BEC94B177FA811001005D2 /* Sources */,
+				F8BEC94C177FA811001005D2 /* Frameworks */,
+				F8BEC94D177FA811001005D2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTTRandomizedEnumerator;
+			productName = TTTRandomizedEnumerator;
+			productReference = F8BEC94F177FA811001005D2 /* TTTRandomizedEnumerator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8BEC947177FA811001005D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Mattt Thompson";
+			};
+			buildConfigurationList = F8BEC94A177FA811001005D2 /* Build configuration list for PBXProject "TTTRandomizedEnumerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F8BEC946177FA811001005D2;
+			productRefGroup = F8BEC950177FA811001005D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8BEC94E177FA811001005D2 /* TTTRandomizedEnumerator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8BEC94B177FA811001005D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BEC956177FA811001005D2 /* main.m in Sources */,
+				F8BEC962177FA825001005D2 /* TTTRandomizedEnumerator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F8BEC95B177FA811001005D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F8BEC95C177FA811001005D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F8BEC95E177FA811001005D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/TTTRandomizedEnumerator-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8BEC95F177FA811001005D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/TTTRandomizedEnumerator-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8BEC94A177FA811001005D2 /* Build configuration list for PBXProject "TTTRandomizedEnumerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8BEC95B177FA811001005D2 /* Debug */,
+				F8BEC95C177FA811001005D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8BEC95D177FA811001005D2 /* Build configuration list for PBXNativeTarget "TTTRandomizedEnumerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8BEC95E177FA811001005D2 /* Debug */,
+				F8BEC95F177FA811001005D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8BEC947177FA811001005D2 /* Project object */;
+}
