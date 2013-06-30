@@ -238,6 +238,7 @@
 		F8BEC95E177FA811001005D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Example/TTTRandomizedEnumerator-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -247,6 +248,7 @@
 		F8BEC95F177FA811001005D2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Example/TTTRandomizedEnumerator-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
