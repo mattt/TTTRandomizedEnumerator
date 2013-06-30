@@ -32,9 +32,7 @@ int main(int argc, const char * argv[]) {
             [mutableNumbers addObject:@(i)];
         }
 
-        NSNumber *number = nil;
-        NSEnumerator *enumerator = [mutableNumbers randomizedObjectEnumerator];
-        while ((number = [enumerator nextObject])) {
+        for (NSNumber *number in [mutableNumbers randomizedObjectEnumerator]) {
             NSLog(@"%@", number);
         }
     }

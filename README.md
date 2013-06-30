@@ -2,9 +2,11 @@ TTTRandomizedEnumerator
 =======
 **Random Access (Collection) Memories**
 
-Mix things up with your collection classes with style and class (well, a category, but you get the idea).
+Mix things up in your collection classes with style and class (well, a category, but you get the idea).
 
-Sure, `<NSFastEnumeration>` gets all of the glory these days, but we can all make a little room for that fresh jam from 1995: `NSEnumerator`. Is that too much to ask?
+I think we can all make a little more room in our hearts for `NSEnumerator`, that fresh jam from 1995.
+
+> Random aside: did you know you can reverse an `NSArray` in a single line with `NSEnumerator`? `array.reverseObjectEnumerator.allObjects`. Boom.
 
 Anyway, this is the best way to randomly step through the objects of an `NSArray`, `NSSet`, or `NSOrderedSet`, as well as the keys and values of an `NSDictionary`.
 
@@ -19,9 +21,15 @@ for (NSUInteger i = 0; i < capacity; i++) {
     [mutableNumbers addObject:@(i)];
 }
 
+// Classic `NSEnumerator` use with `while` loop
 NSNumber *number = nil;
 NSEnumerator *enumerator = [mutableNumbers randomizedObjectEnumerator];
 while ((number = [enumerator nextObject])) {
+    NSLog(@"%@", number);
+}
+
+// `NSEnumerator` also conforms to `<NSFastEnumeration>`
+for (NSNumber *number in [mutableNumbers randomizedObjectEnumerator]) {
     NSLog(@"%@", number);
 }
 ```
