@@ -45,7 +45,7 @@
     // make the shuffling "fair", see http://en.wikipedia.org/wiki/Fisher–Yates_shuffle
     if (count > 1) {
       for (NSUInteger i = count - 1; i > 0; --i) {
-          [mutableObjects exchangeObjectAtIndex:i withObjectAtIndex:arc4random_uniform((int32_t)(i-1))];
+          [mutableObjects exchangeObjectAtIndex:i withObjectAtIndex:arc4random_uniform((int32_t)i)];
       }
     }
     self.objects = mutableObjects;
