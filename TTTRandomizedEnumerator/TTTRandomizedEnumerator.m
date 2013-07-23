@@ -22,6 +22,8 @@
 
 #import "TTTRandomizedEnumerator.h"
 
+#import <libkern/OSAtomic.h>
+
 @interface TTTRandomizedEnumerator () {
     int32_t _idx;
 }
