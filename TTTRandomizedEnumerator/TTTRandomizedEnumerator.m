@@ -68,8 +68,9 @@
 }
 
 - (id)nextObject {
-    NSUInteger idx = NSNotFound;
-    if ((idx = (NSUInteger)OSAtomicIncrement32(&_idx)) < [self.objects count]) {
+    NSUInteger idx = _idx;
+    if (idx < [self.objects count]) {
+        OSAtomicIncrement32(&_idx);
         return [self.objects objectAtIndex:idx];
     }
 
