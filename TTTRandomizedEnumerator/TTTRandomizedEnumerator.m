@@ -60,6 +60,7 @@
 - (NSArray *)allObjects {
     NSUInteger idx = _idx;
     if (idx < [self.objects count]) {
+        _idx = (int32_t)[self.objects count];
         return [self.objects subarrayWithRange:NSMakeRange(idx, [self.objects count] - idx)];
     }
 
