@@ -4,6 +4,7 @@ Pod::Spec.new do |s|
   s.license  = 'MIT'
   s.summary  = 'Mix things up in your collection classes with style and class (well, a category, but you get the idea).'
   s.homepage = 'https://github.com/mattt/TTTRandomizedEnumerator'
+  s.social_media_url = 'https://twitter.com/mattt'
   s.authors  = { 'Mattt Thompson' => 'm@mattt.me' }
   s.source   = { :git => 'https://github.com/mattt/TTTRandomizedEnumerator.git', :tag => '0.0.3' }
   s.source_files = 'TTTRandomizedEnumerator'
